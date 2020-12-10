@@ -1,17 +1,19 @@
+# The text added after the fork is written on the [wiki](https://github.com/sotayamashita/ADVTrustStore/wiki) side.
+
 What is ADVTrustStore
 =====================
 
-ADVTrustStore is a simple management script to import/list/remove CA certificates 
+ADVTrustStore is a simple management script to import/list/remove CA certificates
 to the iOS simulator.
 
 Importing CA certificates is not directly supported in the iOS simulator.
 
 Custom CA certificates are stored in a file named TrustStore.sqlite3 in both the
-physical device and the iOS simulator.  Some scripts are available to import 
+physical device and the iOS simulator.  Some scripts are available to import
 a CA certificate to the iOS simulator but they work only for version lower than 5.0.
 
-Without this tool, the common method to add CA certificates to the iOS simulator 5.0 and 
-above was to import it on a physical device, then extract the TrustStore.sqlite3 file 
+Without this tool, the common method to add CA certificates to the iOS simulator 5.0 and
+above was to import it on a physical device, then extract the TrustStore.sqlite3 file
 from a device backup then copy the relevant records to the to the version in iOS simulator.
 
 ADVTrustStore works with all versions from 5.0 to the current 6.1 version. In addition to
@@ -49,7 +51,7 @@ ADVTrustStore files
 
 iosCertTrustManager.py: the TrustStore manager script
 
-IOSTrustStore Structure.pdf: A documentation with the known details of the 
+IOSTrustStore Structure.pdf: A documentation with the known details of the
 TrustStore.sqlite3 database format
 
 
@@ -59,7 +61,7 @@ Copyright and license
 Written by Daniel Cerutti
 
 Copyright (c) 2013 - [ADVTOOLS SARL](http://www.advtools.com)
- 
+
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
