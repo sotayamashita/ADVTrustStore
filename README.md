@@ -1,4 +1,4 @@
-# The text added after the fork is written on the [wiki](https://github.com/sotayamashita/ADVTrustStore/wiki) side.
+# The text added after the fork is written on the [wiki](https://github.com/sotayamashita/ADVTrustStore/wiki).
 
 What is ADVTrustStore
 =====================
